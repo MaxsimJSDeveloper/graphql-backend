@@ -9,6 +9,10 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*.ts"],
+  "include": [
+    "src/**/*.ts",
+    "src/graphql/resolves.js",
+    "src/controllers/contact.js"
+  ],
   "exclude": ["node_modules"]
 }

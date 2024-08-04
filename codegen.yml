@@ -1,7 +1,0 @@
-schema: "./src/graphql/schema.graphql"
-documents: "" # Путь к вашим файлам запросов и мутаций (если есть)
-generates:
-  src/types.ts: # Путь к файлу, в который будут сгенерированы типы
-    plugins:
-      - "typescript"
-      - "typescript-resolvers"
